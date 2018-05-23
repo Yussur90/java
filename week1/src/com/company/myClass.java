@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Random;
-
+import java.util.Arrays;
 public class myClass {
 //    public String printMsg(String x){
 //        return x;
@@ -16,5 +16,12 @@ public class myClass {
         }
         over = "game over";
         return over;
+    }
+
+
+    public String acceptAndReverse(int a , int b , int c , int d , int e){
+      int[] userInput={a,b,c,d,e,e,d,c,b,a};
+        String bla = Arrays.toString( userInput );
+      return bla;
     }
 }
